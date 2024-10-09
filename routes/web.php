@@ -12,6 +12,6 @@ Route::get('/ok', function () {
 
 Route::get('/json', function () {
     return return response()->json([
-        'message' => 'Hello World',
+        'message' => 'Hello World!',
     ]);
 });
